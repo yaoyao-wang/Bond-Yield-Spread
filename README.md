@@ -52,7 +52,7 @@ When the spread turns negative (referred to as the Inverted yield curve), the US
 
 Now let’s plot the spread (difference) line and plot it with red. And we can get the result:
 
-![](image/Spread.png)
+![](image/Bond_Yield_Spread.png)
 
 
 
