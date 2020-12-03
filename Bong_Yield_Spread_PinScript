@@ -1,0 +1,11 @@
+//@version=4
+//Step One: Initial Setting
+study("US 10 Year & 2 Year Treasury Spread", overlay = false)	
+
+//Step Two: Parameter Setting
+us2y=security("US02Y", "D", close)
+us10y = security("US10Y","D",close)
+diff = us10y-us2y
+
+//Step Three: Plotting
+plot(diff,color = color.red)
